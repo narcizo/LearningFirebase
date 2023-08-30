@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "learningfirebase-46b79"
+  },
+  "targets": {
+    "learningfirebase-46b79": {
+      "hosting": {
+        "app": [
+          "learningfirebase-46b79"
+        ]
+      }
+    }
+  }
+}
