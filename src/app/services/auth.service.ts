@@ -9,6 +9,8 @@ export class AuthService {
   constructor(private auth: Auth) { }
 
   async register({email, password}: {email:string, password:string}){
+    console.log(email,password);
+  
     try{
       return await createUserWithEmailAndPassword(
         this.auth,
